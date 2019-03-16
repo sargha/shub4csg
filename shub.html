@@ -20,28 +20,116 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900,1000" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,600,700,800,900,1000" rel="stylesheet">
 
     <title>Shub 4 CSG – Shub</title>
     <style>
       body {
-        font-family: 'Muli', sans-serif;
+        font-family: 'Noto Sans KR', sans-serif;
         color: white;
+      }
+
+      .instagram {
+        width: 20px;
+        height: 20px;
+      }
+
+      @media (min-width: 576px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 40px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 768px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 40px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 992px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 60px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 1200px) { 
+        #running {
+          font-size: 3vw;
+        }
+
+        #title {
+          font-size: 4vw;
+        }
+
+        .platform {
+          font-size: 2.5vw;
+        }
+
+        .nav-item {
+          font-size: 1.3vw;
+        }
+
+        .nav-bar {
+          width: 26vw;
+        }
+
+        .instagram {
+          width: 36px;
+          height: 36px;
+        }
       }
 
     </style>
   </head>
-  <body style="background-color: #16a085;">
+  <body style="background-color: #008805;">
     
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
-      <h5 class="my-0 mr-md-auto h1 mt-2" style="font-weight: 600; font-size: 60px; color: white;">This is I</h5>
-      <nav class="my-2 my-md-0 mt-2">
-        <a class="px-1" href="index.html" style="text-transform: uppercase; color: white; font-weight: 300;">Home</a>
-        <a class="px-1" href="shub.html" style="text-transform: uppercase; color: white; font-weight: bolder;">Meet Shub</a>
-        <a class="px-1" href="issues.html" style="text-transform: uppercase; color: white; font-weight: 300;">Issues</a>
-        <a class="px-1" href="team.html" style="text-transform: uppercase; color: white; font-weight: 300;">Team</a>
-        <a class="px-1" href="https://www.facebook.com/shub4csg/" target="_blank" style=""><img src="images/Facebook@2x.png" width="30" height="30" /></a>
-        <a class="px-1" href="http://instagram.com/shub4csg" target="_blank" style="text-transform: uppercase; color: white; font-weight: 300;"><img src="images/Instagram@2x.png" width="30" height="30" /></a>
+      <h5 class="my-0 mr-md-auto h1 mt-2" style="font-weight: 400;color: white;" id="title">This is <span style="font-weight: 600;">I</span></h5>
+      <nav class="my-2 my-md-0 mt-2 nav-bar">
+        <a class="px-1 nav-item" href="index.html" style="text-transform: uppercase; color: white; font-weight: 300;">Home</a>
+        <a class="px-1 nav-item" href="shub.html" style="text-transform: uppercase; color: white; font-weight: bolder;">Meet Shub</a>
+        <a class="px-1 nav-item" href="issues.html" style="text-transform: uppercase; color: white; font-weight: 300;">Issues</a>
+        <a class="px-1 nav-item" href="team.html" style="text-transform: uppercase; color: white; font-weight: 300;">Team</a>
+        <a class="px-1 nav-item" href="http://instagram.com/shub4csg" target="_blank" style="text-transform: uppercase; color: white; font-weight: 300;"><img src="images/Instagram@2x.png" class="instagram" /></a>
       </nav>
     </div>
 
@@ -61,22 +149,36 @@
         <div class="col-md-9 col-xs-12" style="font-weight: 200; font-size: 20px;">
           <ul>
             <li>First-year student in the College of Engineering - Electrical Engineering </li>
-            <li>Intern with New York District Attorney’s Office - HIDTA
+            <li>Intern with New York District Attorney’s Office - High Intensity Drug Trafficking Area
               <ul>
-                <li>Reduced opioid epidemic in New York City 2015</li>
+                <li><i>I saw the epidemic as a major issue in New York City. In a meeting with the District Attorney, I proposed & pushed for a new drug program.</i></li>
+                <li>On team that created HealingNYC</li>
+                <li>Reduced opioid epidemic in New York City 2015 by around 5%</li>
+                <li>Helped create education programs in low income areas on how to use naloxone (opiod reversal medication)</li>
               </ul>
             </li>
-            <li>Research with National Oceanic and Atmospheric Administration
+            <li>Research with National Oceanic and Atmospheric Administration on climate change
               <ul>
-                <li>Climate Change effects on Hurricane Sandy caused by urbanization </li>
+                <li>Studied relationship between increasing temperatures and its effect on rainfall</li>
+                <li>Collected 20 years of rainfall data in NY state and used statistical analysis on rainfall, temperatures, and changes in city infrastructure (ex. black streets)</li>
+                <li>Studied to what extent Hurricane Sandy was caused by urbanization </li>
               </ul>
             </li>
             <li>
               Class president at High School for Math, Science, and Engineering for 4 years
               <ul>
-                <li>Communication with administration </li>
-                <li>Introduced refillable water bottle stations</li>
-                <li>Girls Empowerment Movement to combat sexual abuse </li>
+                <li>Started yearly in-school blood drive  </li>
+                <li>Created direct pipelines for communication with administration</li>
+                <li>Introduced water bottle refill stations (there were none when I joined the school)
+                  <ul>
+                    <li> I helped manage the budget, did product research, and talked to vendors</li>
+                  </ul> 
+                </li>
+                <li>Created Girls Empowerment Movement to combat sexual abuse 
+                  <ul>
+                    <li>GEM provides a platform for women to come together to discuss problems </li>
+                  </ul>
+                </li>
               </ul>
             </li>
           </ul>
@@ -117,6 +219,12 @@
       <div class="mt-5">
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center  mb-4" style="color: white;"><div class="text-center">Made with &#9829; by <a href="https://github.com/shub4csg/shub4csg" target="_blank" style="color: white; text-decoration: underline;">Team Shub</a>.</div></div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

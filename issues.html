@@ -20,12 +20,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Muli:300,400,500,600,700,800,900,1000" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR:300,400,500,600,700,800,900,1000" rel="stylesheet">
 
     <title>Shub 4 CSG – Issues</title>
     <style>
       body {
-        font-family: 'Muli', sans-serif;
+        font-family: 'Noto Sans KR', sans-serif;
         color: white;
       }
 
@@ -49,19 +49,107 @@
           border: 0px !important;
         }
       }
+
+      .instagram {
+        width: 20px;
+        height: 20px;
+      }
+
+      @media (min-width: 576px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 40px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 768px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 40px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 992px) { 
+        #running {
+          font-size: 40px;
+        }
+
+        #hi-shub {
+          font-size: 60px;
+        }
+
+        .platform {
+          font-size: 30px;
+        }
+
+        .instagram {
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      @media (min-width: 1200px) { 
+        #running {
+          font-size: 3vw;
+        }
+
+        #title {
+          font-size: 4vw;
+        }
+
+        .platform {
+          font-size: 2.5vw;
+        }
+
+        .nav-item {
+          font-size: 1.3vw;
+        }
+
+        .nav-bar {
+          width: 26vw;
+        }
+
+        .instagram {
+          width: 36px;
+          height: 36px;
+        }
+      }
     </style>
   </head>
   <body style="background-color: #9E3CFF;">
     
     <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3">
-      <h5 class="my-0 mr-md-auto h1 mt-2" style="font-weight: 600; font-size: 60px; color: white;">Issues</h5>
-      <nav class="my-2 my-md-0 mt-2">
-        <a class="px-1" href="index.html" style="text-transform: uppercase; color: white; font-weight: 300;">Home</a>
-        <a class="px-1" href="shub.html" style="text-transform: uppercase; color: white; font-weight: 300;">Meet Shub</a>
-        <a class="px-1" href="issues.html" style="text-transform: uppercase; color: white; font-weight: bolder;">Issues</a>
-        <a class="px-1" href="team.html" style="text-transform: uppercase; color: white; font-weight: 300;">Team</a>
-        <a class="px-1" href="https://www.facebook.com/shub4csg/" target="_blank" style=""><img src="images/Facebook@2x.png" width="30" height="30" /></a>
-        <a class="px-1" href="http://instagram.com/shub4csg" target="_blank" style="text-transform: uppercase; color: white; font-weight: 300;"><img src="images/Instagram@2x.png" width="30" height="30" /></a>
+      <h5 class="my-0 mr-md-auto h1 mt-2" style="font-weight: 400;color: white;" id="title">Issues</h5>
+      <nav class="my-2 my-md-0 mt-2 nav-bar">
+        <a class="px-1 nav-item" href="index.html" style="text-transform: uppercase; color: white; font-weight: 300;">Home</a>
+        <a class="px-1 nav-item" href="shub.html" style="text-transform: uppercase; color: white; font-weight: 300;">Meet Shub</a>
+        <a class="px-1 nav-item" href="issues.html" style="text-transform: uppercase; color: white; font-weight: bolder;">Issues</a>
+        <a class="px-1 nav-item" href="team.html" style="text-transform: uppercase; color: white; font-weight: 300;">Team</a>
+        <a class="px-1 nav-item" href="http://instagram.com/shub4csg" target="_blank" style="text-transform: uppercase; color: white; font-weight: 300;"><img src="images/Instagram@2x.png" width="30" height="30" /></a>
       </nav>
     </div>
 
@@ -70,7 +158,7 @@
           <div style="font-size: 50px;" class="ml-3">Here’s what I’m running for:</div>
       </div>
       <div class="row">
-          <div style="font-size: 30px;" class="ml-3">Find more information <a href="https://drive.google.com/open?id=1vjh8do5wDqeMbbFJUD-cYNtFBZXBMiJwiMhFq2ZbY34" style="color: white; text-decoration: underline;">here.</a></div>
+          <div style="font-size: 30px;" class="ml-3">Find more information <a href="policies.pdf" target="_blank" style="color: white; text-decoration: underline;">here</a>.</div>
       </div>
 
       <div class="row mt-5">
@@ -219,6 +307,12 @@
       <div class="mt-5">
       </div>
     </div>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row justify-content-center  mb-4" style="color: white;"><div class="text-center">Made with &#9829; by <a href="https://github.com/shub4csg/shub4csg" target="_blank" style="color: white; text-decoration: underline;">Team Shub</a>.</div></div>
+      </div>
+    </footer>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
